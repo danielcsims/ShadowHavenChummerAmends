@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema bioware.xsd">
+  <grades>
+  <!-- Region Standard -->
+  <grade>
+    <name>Gammaware</name>
+    <hide />
+  </grade>
+  <grade>
+    <name>Omegaware</name>
+    <hide />
+  </grade>
+  <!-- End Region -->
+  <!-- Region Adapsin -->
+  <grade>
+    <name>Gammaware (Adapsin)</name>
+    <hide />
+  </grade>
+  <grade>
+    <name>Omegaware (Adapsin)</name>
+    <hide />
+  </grade>
+  <!-- End Region -->
+  </grades>
+  <biowares>
+  <!-- Region Chrome Flesh -->
+  <!-- Region Basic Bioware -->
+  <bioware>
+    <id>abdbc210-c1fa-45f1-9840-4f78d9eb8867</id>
+    <name amendoperation="replace">Chemical Gland (Internal Release)</name>
+    <notes amendoperation="replace" />
+    <bonus amendoperation="replace" />
+  </bioware>
+  <bioware xpathfilter="name = 'Chameleon Skin' or name = 'Chameleon Skin (Dynamic)' or name = 'Chloroplast Skin' or name = 'Orthoskin' or name = 'Sensitive Skin' or name = 'Silky Skin' or name = 'Skin Pigmentation' or name = 'Skin Pigmentation (Permanent)' or name = 'Skin Pocket'">
+    <forbidden amendoperation="append"> <!-- This covers Orthoskin, which has a forbidden node; TODO make this more elegant -->
+      <oneof amendoperation="addnode" xpathfilter="not(name = 'Striking Skin Pigmentation')">
+        <quality amendoperation="addnode">Striking Skin Pigmentation</quality>
+      </oneof>
+    </forbidden>
+    <forbidden amendoperation="addnode" addifnotfound="False"> <!-- This covers all the remaining Skin qualities -->
+      <oneof amendoperation="addnode" xpathfilter="not(name = 'Striking Skin Pigmentation')">
+        <quality amendoperation="addnode">Striking Skin Pigmentation</quality>
+      </oneof>
+    </forbidden>
+  </bioware>
+  <!-- End Region -->
+  <!-- Region Genemods -->
+  <bioware>
+    <name>Adapsin</name>
+    <bonus>
+    <adapsin amendoperation="remove" />
+    <cyberwaretotalessmultiplier>90</cyberwaretotalessmultiplier>
+    </bonus>
+  </bioware>
+  <bioware>
+    <name>Immunization</name>
+    <hide />
+  </bioware>
+  <!-- End Region -->
+  <!-- End Region -->
+  </biowares>
+</chummer>

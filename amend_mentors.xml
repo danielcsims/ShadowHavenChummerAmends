@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <mentors>
+    <mentor>
+      <name>Doom</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Disease</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Mutation</name>
+      <hide />
+    </mentor>
+	  <mentor>
+      <name>Pollution</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Planar Entity</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Spider (Alt)</name>
+      <choices amendoperation="replace">
+        <choice>
+          <name>Magician: +2 dice pool modifier when casting Manipulation spells, preparations, and rituals</name>
+          <bonus>
+            <spellcategory>
+              <name>Manipulation</name>
+              <val>2</val>
+            </spellcategory>
+          </bonus>
+        </choice>
+        <choice>
+          <name>Adept: Gain Spirit Claw (although in this case, it manifests as a fang) and one free level of Hang Time for free.</name>
+          <bonus>
+            <specificpower>
+              <name>Spirit Claw</name>
+            </specificpower>
+            <specificpower>
+              <name>Hang Time</name>
+              <val>1</val>
+            </specificpower>
+          </bonus>
+        </choice>
+      </choices>
+    </mentor>
+  </mentors>
+</chummer>
