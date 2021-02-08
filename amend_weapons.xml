@@ -294,6 +294,204 @@
       <hide />
     </weapon>
     <!-- End Region -->
+	
+	
+	<!-- Region KRIME Katalog -->
+	 <weapon>
+      <id>7fffffff-fae8-45cb-ac9c-7fffffffe169</id>
+      <name>Krime Soldier</name>
+      <category>Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>3</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-4</ap>
+      <mode>SA/BF</mode>
+      <rc>-</rc>
+      <ammo>21(c)</ammo>
+      <avail>14F</avail>
+      <cost>3500</cost>
+      <source>KK</source>
+      <page>13</page>
+      <accessories>
+        <accessory>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Under</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+      <underbarrels>
+        <underbarrel>Krime Soldier GL</underbarrel>
+      </underbarrels>
+      <ammocategory>Sniper Rifles</ammocategory>
+      <useskill>Longarms</useskill>
+    </weapon>
+	<weapon>
+      <id>7fffffff-d3dc-452b-ab09-7fffffffd3d3</id>
+      <name>Krime Monster</name>
+      <category>Medium Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>2</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-5</ap>
+      <mode>BF</mode>
+      <rc>-</rc>
+      <ammo>100(belt)</ammo>
+      <avail>18F</avail>
+      <cost>1500</cost>
+      <source>KK</source>
+      <page>20</page>
+      <accessories>
+        <accessory>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>7fffffff-f8d7-4f99-8c9d-7fffffff7d80</id>
+      <name>Krime Confederate</name>
+      <category>Assault Cannons</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>17P</damage>
+      <ap>-6</ap>
+      <mode>SS</mode>
+      <rc>-</rc>
+      <ammo>2(b)</ammo>
+      <avail>20F</avail>
+      <cost>3500</cost>
+      <source>KK</source>
+      <page>21</page>
+      <accessories>
+        <accessory>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54fff</id>
+      <name>Krime T-Shirt Cannon (AR)</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>0S</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>-</rc>
+      <ammo>5(m)</ammo>
+      <avail>8</avail>
+      <cost>500</cost>
+      <source>KK</source>
+      <page>22</page>
+      <accessories>
+        <accessory>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54ddd</id>
+      <name>Krime T-Shirt Cannon (SG)</name>
+      <category>Shotguns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>0S</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>-</rc>
+      <ammo>5(m)</ammo>
+      <avail>8</avail>
+      <cost>500</cost>
+      <source>KK</source>
+      <page>22</page>
+      <accessories>
+        <accessory>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>7fffffff-e125-44fb-8977-7fffffffc59c</id>
+      <name>Krime Calliope</name>
+      <category>Rocket Launchers</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>Grenade</damage>
+      <ap>-</ap>
+      <mode>SS/FA</mode>
+      <rc>-</rc>
+      <ammo>10(ml)</ammo>
+      <avail>9F</avail>
+      <cost>12500</cost>
+      <source>KK</source>
+      <page>24</page>
+      <accessories>
+        <accessory>
+        </accessory>
+      </accessories>
+      <useskill>Gunnery</useskill>
+    </weapon>
+	<weapon>
+		<name>Krime Calliope</name>
+		<hide />
+	</weapon>
+	<weapon>
+		<name>Krime Ripper</name>
+		<hide />
+	</weapon>
+	<weapon>
+		<name>Krime Carpet</name>
+		<hide />
+	</weapon>
+	<weapon>
+		<name>Krime Party</name>
+		<hide />
+	</weapon>
+	
   </weapons>
   <accessories>
     <accessory>

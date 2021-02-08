@@ -48,6 +48,38 @@
       <name>Avibras-Nissan AN 822</name>
       <accel>3</accel>
     </vehicle>
+	<vehicle>
+      <id>61cb015d-236b-4236-a91a-f8ef3b2842c2</id>
+      <name>Krime Barco de Pesca</name>
+      <page>38</page>
+      <source>KK</source>
+      <accel>2</accel>
+      <armor>6</armor>
+      <avail>12</avail>
+      <body>18</body>
+      <category>Boats</category>
+      <cost>50000</cost>
+      <handling>2/4</handling>
+      <pilot>1</pilot>
+      <seats>6</seats>
+      <sensor>1</sensor>
+      <speed>1/4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>3</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Amenities (Street)</name>
+        <name rating="6">Metahuman Adjustment</name>
+        <name>Multifuel Engine</name>
+        <name>Satellite Link</name>
+        <name select="Fishing nets and lines">Special Equipment</name>
+        <name select="Oversized fish freezer">Special Equipment</name>
+      </mods>
+    </vehicle>
     <!-- End Region -->
   </vehicles>
   <mods>
