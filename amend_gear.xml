@@ -80,6 +80,10 @@
       <name>Grenade: DumDum</name>
       <hide />
     </gear>
+	<gear>
+      <name>Ammo: Krime Splash Self-Defense Ammunition</name>
+      <hide />
+    </gear>
     <!-- End Region -->
     <!-- End Region -->
 
