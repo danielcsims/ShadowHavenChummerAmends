@@ -263,5 +263,18 @@
       <cost>250</cost>
     </gear>
     <!-- End Region -->
+	
+	<!-- Region Krime Katalog -->
+	<gear>
+	  <id>959b02ff-b3b3-4027-8ada-799f31a7a323</id>
+	  <name>Ammo: Krime Crackle Fin-Stabilized HEAT Slugs</name>
+	  <hide />
+	</gear>
+	<gear>
+	  <id>17136c4b-af3b-44a4-b5cf-2eedf7e9d217</id>
+	  <name>Ammo: Krime Splash Self-Defense Ammunition</name>
+	  <hide />
+	</gear>
   </gears>
+  <!-- End Region -->
 </chummer>
