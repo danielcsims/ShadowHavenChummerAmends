@@ -292,8 +292,11 @@
     <!-- Region Chrome Flesh Negative Qualities -->
     <quality>
       <name>Cyber-snob</name>
-      <disablebiowaregrade xpathfilter=". = 'Alphaware'" amendoperation="remove" />
-	  <disablecyberwaregrade xpathfilter=". = 'Alphaware'" amendoperation="remove" />
+	  <bonus>
+        <disablebiowaregrade xpathfilter=". = 'Alphaware'" amendoperation="remove" />
+	    <disablecyberwaregrade xpathfilter=". = 'Alphaware'" amendoperation="remove" />
+		<disablecyberwaregrade xpathfilter=". = 'Alphaware (Adapsin)'" amendoperation="remove" />
+      </bonus>
 	  <required amendoperation="replace">
 	    <oneof>
           <ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
