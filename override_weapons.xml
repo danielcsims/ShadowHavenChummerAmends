@@ -13264,6 +13264,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Side</mount>
       </accessorymounts>
     </weapon>
     <weapon>
