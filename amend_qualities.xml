@@ -103,7 +103,7 @@
 	<quality>
       <name>Trust Fund I</name>
       <required>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>SINner (National)</quality>
           <quality>SINner (Corporate)</quality>
 		  <quality>SINner (Corporate Limited)</quality>
@@ -112,7 +112,7 @@
     </quality>
 	<quality>
       <name>Trust Fund II</name>
-      <required>
+      <required amendoperation="replace">
         <oneof>
           <quality>SINner (National)</quality>
           <quality>SINner (Corporate)</quality>
@@ -122,7 +122,7 @@
     </quality>
 	<quality>
       <name>Trust Fund III</name>
-      <required>
+      <required amendoperation="replace">
         <oneof>
           <quality>SINner (National)</quality>
           <quality>SINner (Corporate)</quality>
@@ -132,7 +132,7 @@
     </quality>
 	<quality>
       <name>Trust Fund IV</name>
-      <required>
+      <required amendoperation="replace">
         <oneof>
           <quality>SINner (National)</quality>
           <quality>SINner (Corporate)</quality>

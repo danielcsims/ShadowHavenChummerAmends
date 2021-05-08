@@ -3986,7 +3986,7 @@
         <mount>Under</mount>
 		<mount>Side</mount>
 		<mount>Internal</mount>
-		<mount>Stock</stock>
+		<mount>Stock</mount>
       </accessorymounts>
       <range>Sniper Rifles</range>
       <useskill>Exotic Ranged Weapon</useskill>
@@ -10362,10 +10362,10 @@
       <source>2050</source>
       <page>185</page>
       <ammocategory>Grenade Launchers</ammocategory>
-      <hide />
       <range>Grenade Launchers</range>
       <useskill>Heavy Weapons</useskill>
       <weapontype>glauncher</weapontype>
+	  <hide />
     </weapon>
     <weapon>
       <id>2f4724d3-4644-411c-998c-b0a12461e508</id>
