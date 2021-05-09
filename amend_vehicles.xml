@@ -133,5 +133,9 @@
       <name>Yerz Kit</name>
       <hide />
     </mod>
+    <mod>
+      <name>Ram Plate</name>
+      <cost>Body * 250</cost>
+    </mod>
   </mods>
 </chummer>
