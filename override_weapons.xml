@@ -3351,6 +3351,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -3380,6 +3381,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -3409,6 +3411,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -3433,6 +3436,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Revolvers</spec>
     </weapon>
@@ -3457,6 +3461,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Revolvers</spec>
     </weapon>
@@ -3481,6 +3486,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -3543,6 +3549,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -3567,6 +3574,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -3591,6 +3599,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -3615,6 +3624,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Revolvers</spec>
     </weapon>
@@ -3644,6 +3654,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4213,6 +4224,8 @@
       <accessorymounts>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4245,6 +4258,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4274,6 +4288,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4298,6 +4313,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <ammocategory>Heavy Pistols</ammocategory>
       <range>Tasers</range>
@@ -4324,6 +4340,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4367,6 +4384,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4399,6 +4417,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4455,6 +4474,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <range>Heavy Pistols</range>
       <spec>Semi-Automatics</spec>
@@ -4480,6 +4500,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4509,6 +4530,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
       <spec2>Revolvers</spec2>
@@ -4542,6 +4564,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4577,6 +4600,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4606,6 +4630,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4662,6 +4687,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4694,6 +4720,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4729,6 +4756,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4758,6 +4786,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4787,6 +4816,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -4819,6 +4849,7 @@
         <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -8420,6 +8451,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -8538,6 +8570,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -8567,6 +8600,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Revolvers</spec>
       <underbarrels>
@@ -8598,6 +8632,7 @@
 	    <mount>Top</mount>
 		<mount>Barrel</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
     </weapon>
     <weapon>
@@ -8842,6 +8877,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -9058,6 +9094,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <range>Light Pistols</range>
       <spec>Semi-Automatics</spec>
@@ -9089,6 +9126,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <range>Heavy Pistols</range>
       <spec>Semi-Automatics</spec>
@@ -9212,6 +9250,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <range>Heavy Pistols</range>
       <spec>Semi-Automatics</spec>
@@ -9277,6 +9316,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Stock</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -11313,6 +11353,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <spec>Revolvers</spec>
     </weapon>
@@ -11348,6 +11389,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -11372,6 +11414,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -11404,6 +11447,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -13065,6 +13109,7 @@
 	    <mount>Top</mount>
 		<mount>Barrel</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
     </weapon>
     <weapon>
@@ -13093,6 +13138,7 @@
 	    <mount>Internal</mount>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <ammocategory>Heavy Pistols</ammocategory>
       <range>Heavy Pistols</range>
@@ -13124,6 +13170,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -13148,6 +13195,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <addweapon>Barrens Special: Bayonet</addweapon>
       <spec>Revolvers</spec>
@@ -13203,6 +13251,7 @@
 	    <mount>Top</mount>
 		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Barrel</mount>
 	  </accessorymounts>
     </weapon>
     <weapon>
@@ -13231,6 +13280,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <ammocategory>Sporting Rifles</ammocategory>
       <range>Submachine Guns</range>
@@ -13265,6 +13315,7 @@
         <mount>Top</mount>
         <mount>Side</mount>
 		<mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
     </weapon>
     <weapon>
@@ -13293,6 +13344,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <doubledcostaccessorymounts>
         <mount>Barrel</mount>
@@ -13354,6 +13406,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -13383,6 +13436,8 @@
       <accessorymounts>
         <mount>Barrel</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
+		<mount>Top</mount>
       </accessorymounts>
       <range>Light Pistols</range>
       <spec>Semi-Automatics</spec>
@@ -13443,6 +13498,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Internal</mount>
+		<mount>Side</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
       <spec2>Revolvers</spec2>
@@ -13492,6 +13548,7 @@
 	    <mount>Top</mount>
 		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Barrel</mount>
 	  </accessorymounts>
     </weapon>
     <weapon>
@@ -14969,6 +15026,7 @@
 	    <mount>Top</mount>
 		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Barrel</mount>
 	  </accessorymounts>
     </weapon>
     <weapon>
@@ -15104,6 +15162,8 @@
       <accessorymounts>
         <mount>Barrel</mount>
         <mount>Top</mount>
+		<mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
     </weapon>
     <!-- End Region -->
@@ -15342,6 +15402,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -15374,6 +15435,7 @@
         <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Side</mount>
+		<mount>Internal</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>

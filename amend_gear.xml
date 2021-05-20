@@ -86,7 +86,17 @@
     </gear>
     <!-- End Region -->
     <!-- End Region -->
-
+	<!-- Region Programs -->
+	<gear amendoperation="addnode">
+	  <id>c5d0e712-94d4-420e-998a-096695f283be</id>
+	  <name>Cry Wolf</name>
+      <category>Hacking Programs</category>
+      <avail>4F</avail>
+      <cost>250</cost>
+      <source>KC</source>
+      <page>65</page>
+	</gear>
+    <!-- End Region -->
     <!-- Region Disguises -->
     <gear>
       <name>Faceless - Specific Face</name>
