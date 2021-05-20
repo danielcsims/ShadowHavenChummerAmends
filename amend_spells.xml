@@ -111,6 +111,14 @@
       <name>Turn to Goo</name>
       <hide />
     </spell>
+	<spell>
+	  <name>Mana Scape</name>
+	  <hide />
+	</spell>
+	<spell>
+	  <name>False Impressions</name>
+	  <hide />
+	</spell>
 <!--    <spell>
       <name>Corps Cadavre</name>
       <hide />

@@ -86,7 +86,17 @@
     </gear>
     <!-- End Region -->
     <!-- End Region -->
-
+	<!-- Region Programs -->
+	<gear amendoperation="addnode">
+	  <id>c5d0e712-94d4-420e-998a-096695f283be</id>
+	  <name>Cry Wolf</name>
+      <category>Hacking Programs</category>
+      <avail>4F</avail>
+      <cost>250</cost>
+      <source>KC</source>
+      <page>65</page>
+	</gear>
+    <!-- End Region -->
     <!-- Region Disguises -->
     <gear>
       <name>Faceless - Specific Face</name>
@@ -263,5 +273,18 @@
       <cost>250</cost>
     </gear>
     <!-- End Region -->
+	
+	<!-- Region Krime Katalog -->
+	<gear>
+	  <id>959b02ff-b3b3-4027-8ada-799f31a7a323</id>
+	  <name>Ammo: Krime Crackle Fin-Stabilized HEAT Slugs</name>
+	  <hide />
+	</gear>
+	<gear>
+	  <id>17136c4b-af3b-44a4-b5cf-2eedf7e9d217</id>
+	  <name>Ammo: Krime Splash Self-Defense Ammunition</name>
+	  <hide />
+	</gear>
   </gears>
+  <!-- End Region -->
 </chummer>

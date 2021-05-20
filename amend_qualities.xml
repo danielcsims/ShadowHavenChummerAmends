@@ -18,8 +18,9 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
-  <!--Region Shadowrun Core Positive Qualities -->
   <qualities>
+  <!--Region Shadowrun Core Positive Qualities -->
+	<!-- End Region -->
     <!-- Region Core Negative Qualities -->
     <quality>
       <name>Uneducated</name>
@@ -87,6 +88,10 @@
       <name>Amnesia (Neural Deletion)</name>
       <hide />
     </quality>
+	<quality>
+      <name>Amnesia (Surface Loss)</name>
+      <hide />
+    </quality>
     <quality>
       <name>Hung Out to Dry</name>
       <hide />
@@ -94,6 +99,46 @@
     <quality>
       <name>In Debt</name>
       <hide />
+    </quality>
+	<quality>
+      <name>Trust Fund I</name>
+      <required>
+        <oneof amendoperation="replace">
+          <quality>SINner (National)</quality>
+          <quality>SINner (Corporate)</quality>
+		  <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+	  </required>
+    </quality>
+	<quality>
+      <name>Trust Fund II</name>
+      <required amendoperation="replace">
+        <oneof>
+          <quality>SINner (National)</quality>
+          <quality>SINner (Corporate)</quality>
+		  <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+	  </required>
+    </quality>
+	<quality>
+      <name>Trust Fund III</name>
+      <required amendoperation="replace">
+        <oneof>
+          <quality>SINner (National)</quality>
+          <quality>SINner (Corporate)</quality>
+		  <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+	  </required>
+    </quality>
+	<quality>
+      <name>Trust Fund IV</name>
+      <required amendoperation="replace">
+        <oneof>
+          <quality>SINner (National)</quality>
+          <quality>SINner (Corporate)</quality>
+		  <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+	  </required>
     </quality>
     <!-- End Region -->
     <!-- Region Run Faster Infected Qualities -->
@@ -245,10 +290,19 @@
     </quality>
     <!-- End Region -->
     <!-- Region Chrome Flesh Negative Qualities -->
-<!--    <quality>
+    <quality>
       <name>Cyber-snob</name>
-      <hide />
-    </quality> -->
+	  <bonus>
+        <disablebiowaregrade xpathfilter=". = 'Alphaware'" amendoperation="remove" />
+	    <disablecyberwaregrade xpathfilter=". = 'Alphaware'" amendoperation="remove" />
+		<disablecyberwaregrade xpathfilter=". = 'Alphaware (Adapsin)'" amendoperation="remove" />
+      </bonus>
+	  <required amendoperation="replace">
+	    <oneof>
+          <ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
+        </oneof>
+	  </required>
+    </quality>
     <quality>
       <name>Dead Emotion</name>
       <hide />
@@ -301,10 +355,10 @@
       <name>Apt Pupil</name>
       <hide />
     </quality>
-    <quality>
-      <name>Astral Bouncer</name>
-      <hide />
-    </quality>
+	<quality>
+	  <name>Archivist</name>
+	  <hide />
+	</quality>
     <quality>
       <name>Blood Necromancer</name> <!-- Player Only -->
       <hide />
@@ -443,6 +497,22 @@
         </oneof>
       </required>
     </quality>
+	<quality>
+	  <name>Archanist</name>
+	  <hide />
+	</quality>
+	<quality>
+	  <name>Chain Breaker</name>
+	  <costdiscount>
+        <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+			<quality>Apprentice</quality>
+          </oneof>
+        </required>
+        <value>-5</value>
+      </costdiscount>
+	</quality>
     <quality>
       <name>Illusionist</name>
       <hide />
@@ -562,10 +632,6 @@
       <name>Every Man For Himself</name>
       <hide />
     </quality>
-    <quality>
-      <name>No Man Left Behind</name>
-      <hide />
-    </quality>
   	<quality>
       <name>Stay Out of My Way</name>
       <hide />
@@ -578,6 +644,11 @@
   	<!-- End Region -->
   	<!-- Region Kill Code -->
     <!-- Region Positive Qualities -->
+	<quality>
+	  <id>63fd5450-5f3d-4090-933e-ad0cf39ef0e2</id>
+      <name>Brilliant Heuristics</name>
+      <required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
+    </quality>
     <quality>
       <name>Fractal Punch</name>
       <required amendoperation="remove" /> <!-- Allowed to be either a Technomancer or Decker to take this. -->
