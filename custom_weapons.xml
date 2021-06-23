@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.w3.org/2001/XMLSchema weapons.xsd">
+  <weapons>
+    <weapon>
+      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54fff</id>
+      <name>Krime T-Shirt Cannon (AR)</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>0S</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>-</rc>
+      <ammo>5(m)</ammo>
+      <avail>8</avail>
+      <cost>500</cost>
+      <source>KK</source>
+      <page>22</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54ddd</id>
+      <name>Krime T-Shirt Cannon (SG)</name>
+      <category>Shotguns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>0S</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>-</rc>
+      <ammo>5(m)</ammo>
+      <avail>8</avail>
+      <cost>500</cost>
+      <source>KK</source>
+      <page>22</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+  </weapons>
