@@ -15933,7 +15933,7 @@
       <avail>18F</avail>
       <cost>1500</cost>
       <source>KK</source>
-      <page>20</page>
+      <page>15</page>
       <accessories>
         <accessory>
           <name>Metahuman Adaptation</name>
@@ -16001,58 +16001,6 @@
           <name>Metahuman Adaptation</name>
         </accessory>
       </accessories>
-      <accessorymounts>
-        <mount>Stock</mount>
-        <mount>Side</mount>
-        <mount>Internal</mount>
-        <mount>Barrel</mount>
-        <mount>Top</mount>
-        <mount>Under</mount>
-      </accessorymounts>
-    </weapon>
-	<weapon>
-      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54fff</id>
-      <name>Krime T-Shirt Cannon (AR)</name>
-      <category>Assault Rifles</category>
-      <type>Ranged</type>
-      <conceal>10</conceal>
-      <accuracy>5</accuracy>
-      <reach>0</reach>
-      <damage>0S</damage>
-      <ap>-</ap>
-      <mode>SS</mode>
-      <rc>-</rc>
-      <ammo>5(m)</ammo>
-      <avail>8</avail>
-      <cost>500</cost>
-      <source>KK</source>
-      <page>22</page>
-      <accessorymounts>
-        <mount>Stock</mount>
-        <mount>Side</mount>
-        <mount>Internal</mount>
-        <mount>Barrel</mount>
-        <mount>Top</mount>
-        <mount>Under</mount>
-      </accessorymounts>
-    </weapon>
-	<weapon>
-      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54ddd</id>
-      <name>Krime T-Shirt Cannon (SG)</name>
-      <category>Shotguns</category>
-      <type>Ranged</type>
-      <conceal>10</conceal>
-      <accuracy>5</accuracy>
-      <reach>0</reach>
-      <damage>0S</damage>
-      <ap>-</ap>
-      <mode>SS</mode>
-      <rc>-</rc>
-      <ammo>5(m)</ammo>
-      <avail>8</avail>
-      <cost>500</cost>
-      <source>KK</source>
-      <page>22</page>
       <accessorymounts>
         <mount>Stock</mount>
         <mount>Side</mount>
@@ -17564,12 +17512,27 @@
       </forbidden>
       <rating>0</rating>
       <required>
-        <weapondetails>
-          <OR>
-            <ammo operation="contains">(cy)</ammo>
-            <ammo operation="contains">(d)</ammo>
-          </OR>
-        </weapondetails>
+        <oneof>
+          <group>
+            <weapondetails>
+              <OR>
+                <name>Enfield AS-7</name>
+                <name>Enfield AS-7 (2050)</name>
+				<name>Auto-Assault 16</name>
+              </OR>
+            </weapondetails>
+            <grouponeof>
+              <accessory>Drum Magazine, 24-round</accessory>
+              <accessory>Drum Magazine, 32-round</accessory>
+            </grouponeof>
+          </group>
+          <weapondetails>
+            <OR>
+              <ammo operation="contains">(cy)</ammo>
+              <ammo operation="contains">(d)</ammo>
+            </OR>
+          </weapondetails>
+        </oneof>
       </required>
     </accessory>
     <accessory>

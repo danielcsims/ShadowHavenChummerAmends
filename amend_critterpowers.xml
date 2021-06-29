@@ -21,11 +21,18 @@
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.w3.org/2001/XMLSchema critterpowers.xsd">
 
-	<!-- Skills as optional powers (hidden from normal view, only accessible through bonuses) -->
+   <powers>
 	<power>
-    <power>
-      <name>Paralyzing Howl</name>
-<!--      <type>M</type> --> <!-- FIAT Pending reevaluation -->
-    </power>
+	  <id>224f6093-af49-4fd4-a30a-b0c38673ffb7</id>
+	  <name>Secretion/Substance Extrusion</name>
+	  <category>Mundane/Infected</category>
+	  <karma>9</karma>
+	  <required>
+        <oneof>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+        </oneof>
+      </required>
+	</power>
   </powers>
 </chummer>
