@@ -45,4 +45,18 @@
       <source>DM</source>
       <page>0</page>
     </quality>
+    <quality>
+      <id>20a288d8-8c8e-46f2-9e69-93d6c11f6a94</id>
+      <name>A Terrible Fascination</name>
+      <karma>-15</karma>
+      <category>Negetive</category>
+      <bonus>
+      </bonus>
+      <required>
+        <oneof>
+            <quality>History Is Less Certain Than We Are Taught</quality>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+    </quality>
     <!-- End Region -->
