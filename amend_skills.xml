@@ -212,5 +212,29 @@
         <spec>Atlantis</spec>
       </specs>
     </skill>
+    <skill>
+      <id>4c9208ed-716a-48a8-9d7b-0171ba50bbe4</id>
+      <name>The 4th World</name>
+      <attribute>INT</attribute>
+      <category>Interest</category>
+      <default>False</default>
+      <skillgroup />
+    </skill>
+    <skill>
+      </id>299a0e02-a783-451e-ab5b-9532cd279cb4</id>
+      <name>The Enemy</name>
+      <attribute>INT</attribute>
+      <category>Interest</attribute>
+      <default>False</default>
+      <skillgroup />
+    </skill>
+    <skill>
+      <id>1649eb31-a763-49a4-8955-cc8ba5d25738</id>
+      <name>The Scourge</name>
+      <attribute>INT</attribute>
+      <category>Interest</category>
+      <default>False</default>
+      <skillgroup />
+    </skill>
   </knowledgeskills>
 </chummer>
