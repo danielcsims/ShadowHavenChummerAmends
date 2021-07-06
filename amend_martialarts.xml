@@ -38,7 +38,7 @@
     <technique>
       <!-- Region Forbidden Arcana -->
       <name>Mana Choke</name>
-      <required>
+      <required amendoperation="addnode">
         <oneof>
           <quality>Adept</quality>
           <quality>Mystic Adept</quality>
@@ -47,7 +47,7 @@
     </technique>
     <technique>
       <name>Mana Strike</name>
-      <required>
+      <required amendoperation="addnode">
         <oneof>
           <quality>Adept</quality>
           <quality>Mystic Adept</quality>
