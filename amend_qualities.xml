@@ -92,6 +92,10 @@
       <name>Amnesia (Surface Loss)</name>
       <hide />
     </quality>
+	<quality>
+	  <name>Borrowed Time</name>
+	  <hide />
+	</quality>
     <quality>
       <name>Hung Out to Dry</name>
       <hide />
@@ -192,7 +196,15 @@
     </quality>
     <!-- End Region -->
     <!-- End Region -->
-    <!-- Region Data Trails-->
+	<!-- Region Run & Gun Qualities -->
+	<!-- Region Run & Gun Positive Qualities -->
+	<quality>
+	  <name>Earther</name>
+	  <hide />
+	</quality>
+	<!-- End Region -->
+	<!-- End Region -->
+    <!-- Region Data Trails -->
     <!-- Region Data Trails Positive Qualities -->
     <quality>
       <name>Chatty</name>
