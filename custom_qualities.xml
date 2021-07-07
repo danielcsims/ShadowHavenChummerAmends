@@ -17,17 +17,16 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
+<chummer>
   <!-- Region Defiance Manifest Positive Qualities-->
+  <qualities>
   <quality>
       <id>0a553fa5-e913-43a5-b235-0bfed057983d</id>
       <name>History Is Less Certain Than We Are Taught</name>
       <karma>0</karma>
       <category>Positive</category>
-      <bonus>
-      </bonus>
-      <source>DM</source>
-      <page>0</page>
+      <source>RF</source>
+      <page>5</page>
     </quality>
     <!-- End Region-->
   <!-- Region Defiance Manifest Negetive Qualities-->
@@ -36,8 +35,6 @@
       <name>An Overwhelming Despair</name>
       <karma>-15</karma>
       <category>Negetive</category>
-      <bonus>
-      </bonus>
       <required>
         <oneof>
             <quality>History Is Less Certain Than We Are Taught</quality>
@@ -50,8 +47,6 @@
       <name>A Terrible Fascination</name>
       <karma>-15</karma>
       <category>Negetive</category>
-      <bonus>
-      </bonus>
       <required>
         <oneof>
             <quality>History Is Less Certain Than We Are Taught</quality>
