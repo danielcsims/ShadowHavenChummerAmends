@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <!-- Region Defiance Manifest Positive Qualities-->
+  <qualities>
+  <quality>
+      <id>0a553fa5-e913-43a5-b235-0bfed057983d</id>
+      <name>History Is Less Certain Than We Are Taught</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <source>RF</source>
+      <page>5</page>
+    </quality>
+    <!-- End Region-->
+  <!-- Region Defiance Manifest Negetive Qualities-->
+  <quality>
+      <id>69530371-4a79-41a4-bb16-71167754389f</id>
+      <name>An Overwhelming Despair</name>
+      <karma>-15</karma>
+      <category>Negetive</category>
+      <required>
+        <oneof>
+            <quality>History Is Less Certain Than We Are Taught</quality>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>20a288d8-8c8e-46f2-9e69-93d6c11f6a94</id>
+      <name>A Terrible Fascination</name>
+      <karma>-15</karma>
+      <category>Negetive</category>
+      <required>
+        <oneof>
+            <quality>History Is Less Certain Than We Are Taught</quality>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+    </quality>
+    <!-- End Region -->
