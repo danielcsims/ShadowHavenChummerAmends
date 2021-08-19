@@ -47,14 +47,6 @@
     </armor>
     <!-- End Region -->
     <!-- Region Kill Code -->
-    <armor>
-      <name>Pantheon Industries Hard Case CCOB</name>
-      <hide />
-    </armor>
-    <armor>
-      <name>Generic CCOB</name>
-      <hide />
-    </armor>
     <!-- End Region -->
   </armors>
   <mods>
