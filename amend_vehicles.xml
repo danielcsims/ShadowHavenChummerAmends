@@ -81,6 +81,11 @@
       </mods>
     </vehicle>
     <!-- End Region -->
+	<!-- Region Rigger 5 -->
+	<vehicle>
+	  <id>34d93e94-55af-463b-bec3-ed719dbd9d91</id>
+	  <avail>14R</avail>
+	</vehicle>
   </vehicles>
   <mods>
     <!-- Weapon Mounts from Core -->
