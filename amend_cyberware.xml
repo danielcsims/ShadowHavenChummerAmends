@@ -40,4 +40,15 @@
     </grade>
     <!-- End Region -->
   </grades>
+<cyberwares>
+  <cyberware>
+    <name>Skilljack</name>
+    <ess>0.1</ess>
+    <cost>Rating * 1000</cost>
+  </cyberware>
+   <cyberware>
+    <name>Skillwires</name>
+    <ess>Rating * 0.1</ess>
+ </cyberware>
+ </cyberwares>
 </chummer>
