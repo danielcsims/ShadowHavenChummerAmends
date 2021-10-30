@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
+	<qualities>
+		<quality>
+			<id>b7f22362-abee-4276-9f8d-b786b3e6e39a</id>
+			<name>History Is Not As Certain As We Are Taught</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>55e62ea2-7207-47a8-8b06-31aeaa0d02d1</id>
+			<name>An Overwhelming Despair</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<required>
+				<allof>
+					<quality>History Is Not As Certain As We Are Taught</quality>
+				</allof>
+			</required>
+			<bonus>
+				<specificskill>
+					<name>Intimidation</name>
+					<bonus>-2</bonus>
+				</specificskill>
+				<specificskill>
+					<name>Instruction</name>
+					<bonus>-2</bonus>
+				</specificskill>
+				<skillgroup>
+					<name>Acting</name>
+					<bonus>-2</bonus>
+				</skillgroup>
+				<skillgroup>
+					<name>Influence</name>
+					<bonus>-2</bonus>
+				</skillgroup>
+			</bonus>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>ad8791a1-7f65-4b03-b9f9-0b9e5bf93528</id>
+			<name>A Terrible Fascination</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<required>
+				<allof>
+					<quality>History Is Not As Certain As We Are Taught</quality>
+				</allof>
+			</required>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+	</qualities>
+</chummer>

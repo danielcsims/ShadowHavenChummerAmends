@@ -131,7 +131,7 @@
     <!-- End Region -->
 
     <!-- Region ID/Credsticks -->
-    <gear>
+    <gear amendoperation="addnode">
       <id>8a16bbb2-8028-4c74-b22b-7aad9d001074</id>
       <name>Burner Fake License</name>
       <category>ID/Credsticks</category>
@@ -153,7 +153,7 @@
       </required>
       <allowrename>True</allowrename>
     </gear>
-    <gear>
+    <gear amendoperation="addnode">
       <id>0c800bca-e6ff-475b-a014-c2069f5e364d</id>
       <name>Burner Fake SIN</name>
       <category>ID/Credsticks</category>
@@ -274,7 +274,7 @@
       <cost>250</cost>
     </gear>
     <!-- End Region -->
-	
+
 	<!-- Region Krime Katalog -->
 	<gear>
 	  <id>959b02ff-b3b3-4027-8ada-799f31a7a323</id>
@@ -286,6 +286,15 @@
 	  <name>Ammo: Krime Splash Self-Defense Ammunition</name>
 	  <hide />
 	</gear>
+	<gear>
+      <id>c18eed96-2697-4b95-9be7-be9313504a2f</id>
+      <name>Ammo: Krime Punisher Assault Cannon Rounds</name>
+      <weaponbonus>
+        <damage>3</damage>
+        <ap>-3</ap>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>
   </gears>
   <!-- End Region -->
 </chummer>
