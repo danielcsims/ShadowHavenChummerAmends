@@ -112,21 +112,24 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<required>
-				<allof>
-					<oneof>
+				<oneof>
+					<group>
 						<skillgrouptotal>
 							<skillgroups>Athletics,Close Combat,Firearms,Outdoors</skillgroups>
 							<val>4</val>
 						</skillgrouptotal>
+						<ess>-3.0</ess>
+					</group>
+					<group>
 						<skilltotal>
 							<skills>Flight,Gymnastics,Running,Swimming,Blades,Clubs,Unarmed,Automatics,Longarms,Pistols,
-								Navigation,Survival,Tracking,Pilot Aerospace,Pilot Aircraft,Pilot Ground Craft,
-								Pilot Walker,Pilot Watercraft</skills>
+									Navigation,Survival,Tracking,Pilot Aerospace,Pilot Aircraft,Pilot Groundcraft,
+									Pilot Walker,Pilot Watercraft</skills>
 							<val>14</val>
 						</skilltotal>
-					</oneof>
-					<ess>-3.0</ess>
-				</allof>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
 			</required>
 			<source>SR5</source>
 			<page>10</page>
