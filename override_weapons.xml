@@ -935,7 +935,7 @@
 	  <conceal>6</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -954,7 +954,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+5)P</damage>
+	  <damage>({STR}+5)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -973,7 +973,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -992,7 +992,7 @@
 	  <conceal>2</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1011,7 +1011,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1030,7 +1030,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1049,7 +1049,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1071,7 +1071,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1091,7 +1091,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical-1</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1113,7 +1113,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+5)P</damage>
+	  <damage>({STR}+5)P</damage>
 	  <ap>-5</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1132,7 +1132,7 @@
 	  <conceal>4</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1151,7 +1151,7 @@
 	  <conceal>6</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1170,7 +1170,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1189,7 +1189,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1209,7 +1209,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>3</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1227,7 +1227,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1249,7 +1249,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1276,7 +1276,7 @@
 	  <conceal>4</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1295,7 +1295,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1314,7 +1314,7 @@
 	  <conceal>4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1563,7 +1563,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1581,7 +1581,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1619,7 +1619,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1638,7 +1638,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1677,7 +1677,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1898,7 +1898,7 @@
 	  <conceal>8</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)S</damage>
+	  <damage>({STR}+2)S</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1918,7 +1918,7 @@
 	  <conceal>8</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1956,7 +1956,7 @@
 	  <conceal>8</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P + 12(e)</damage>
+	  <damage>({STR}+2)P + 12(e)</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -1975,7 +1975,7 @@
 	  <conceal>8</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2088,7 +2088,7 @@
 	  <conceal>2</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>+3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2106,7 +2106,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+4)S</damage>
+	  <damage>({STR}+4)S</damage>
 	  <ap>-6</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2124,7 +2124,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+6)P</damage>
+	  <damage>({STR}+6)P</damage>
 	  <ap>-8</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2160,7 +2160,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2313,7 +2313,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical-1</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2334,7 +2334,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical-1</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2355,7 +2355,7 @@
 	  <conceal>2</conceal>
 	  <accuracy>Physical+1</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2755,7 +2755,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -2784,7 +2784,7 @@
 	  <conceal>4</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3081,7 +3081,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3102,7 +3102,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3123,7 +3123,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3765,7 +3765,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3785,7 +3785,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)S</damage>
+	  <damage>({STR}+1)S</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3804,7 +3804,7 @@
 	  <conceal>2</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3823,7 +3823,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)S</damage>
+	  <damage>({STR}+2)S</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3842,7 +3842,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR-1)P</damage>
+	  <damage>({STR}-1)P</damage>
 	  <ap>+1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3861,7 +3861,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3880,7 +3880,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1/-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3900,7 +3900,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3919,7 +3919,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>+1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3939,7 +3939,7 @@
 	  <conceal>6</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)S</damage>
+	  <damage>({STR}+3)S</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -3958,7 +3958,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+4)P</damage>
+	  <damage>({STR}+4)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -5971,7 +5971,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)S</damage>
+	  <damage>({STR}+3)S</damage>
 	  <ap>+4</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
@@ -6068,7 +6068,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)S/12P</damage>
+	  <damage>({STR}+3)S/12P</damage>
 	  <ap>+4/-8</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
@@ -7081,7 +7081,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7141,7 +7141,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)S</damage>
+	  <damage>({STR})S</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7420,7 +7420,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7439,7 +7439,7 @@
 	  <conceal>6</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+4)P</damage>
+	  <damage>({STR}+4)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7461,7 +7461,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>+1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7482,7 +7482,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7503,7 +7503,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7524,7 +7524,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7545,7 +7545,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>-1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7566,7 +7566,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7587,7 +7587,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7608,7 +7608,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7629,7 +7629,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR-1)P</damage>
+	  <damage>({STR}-1)P</damage>
 	  <ap>+1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7650,7 +7650,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>+1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7671,7 +7671,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>-1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7692,7 +7692,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>-1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7713,7 +7713,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7761,7 +7761,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7828,7 +7828,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>Physical-2</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7850,7 +7850,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+5)P</damage>
+	  <damage>({STR}+5)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7872,7 +7872,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-6</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7896,7 +7896,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7919,7 +7919,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7965,7 +7965,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -7988,7 +7988,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8011,7 +8011,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8034,7 +8034,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8057,7 +8057,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8080,7 +8080,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8103,7 +8103,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8126,7 +8126,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical-1</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8207,7 +8207,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8226,7 +8226,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8245,7 +8245,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8267,7 +8267,7 @@
 	  <conceal>-10</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8290,7 +8290,7 @@
 	  <conceal>-10</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8313,7 +8313,7 @@
 	  <conceal>-10</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+4)P</damage>
+	  <damage>({STR}+4)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8336,7 +8336,7 @@
 	  <conceal>4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>3</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8355,7 +8355,7 @@
 	  <conceal>4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8374,7 +8374,7 @@
 	  <conceal>4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8393,7 +8393,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR-2)P</damage>
+	  <damage>({STR}-2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -8533,7 +8533,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -9210,7 +9210,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -9408,7 +9408,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>-</mode>
 	  <rc>0</rc>
@@ -9428,7 +9428,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>-</mode>
 	  <rc>0</rc>
@@ -9447,7 +9447,7 @@
 	  <conceal>8</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -9468,7 +9468,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -9490,7 +9490,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -9512,7 +9512,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -9534,7 +9534,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12371,7 +12371,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>3+number({STR} >= 5)+number({STR} >= 7)</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+2+(2*number(STR >= 5))+(2*number(STR >= 7)))P</damage>
+	  <damage>({STR}+2+(2*number({STR} >= 5))+(2*number({STR} >= 7)))P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12472,7 +12472,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12490,7 +12490,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12511,7 +12511,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12530,7 +12530,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12549,7 +12549,7 @@
 	  <conceal>+2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12567,7 +12567,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12586,7 +12586,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12605,7 +12605,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>2</reach>
-	  <damage>(STR+5)P</damage>
+	  <damage>({STR}+5)P</damage>
 	  <ap>-5</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12624,7 +12624,7 @@
 	  <conceal>+4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+4)P</damage>
+	  <damage>({STR}+4)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12643,7 +12643,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12662,7 +12662,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12682,7 +12682,7 @@
 	  <conceal>+2</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12700,7 +12700,7 @@
 	  <conceal>+2</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12718,7 +12718,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -12941,7 +12941,7 @@
 	  <conceal>+8</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -13208,7 +13208,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14038,7 +14038,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>FA</mode>
 	  <rc>0</rc>
@@ -14406,7 +14406,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-3</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14443,7 +14443,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14521,7 +14521,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14603,7 +14603,7 @@
 	  <conceal>6</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14622,7 +14622,7 @@
 	  <conceal>-2</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR)P</damage>
+	  <damage>({STR})P</damage>
 	  <ap>-5</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14708,7 +14708,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14727,7 +14727,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+1)P</damage>
+	  <damage>({STR}+1)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14765,7 +14765,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>0</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14784,7 +14784,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14803,7 +14803,7 @@
 	  <conceal>-4</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14840,7 +14840,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>3</accuracy>
 	  <reach>3</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14902,7 +14902,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14921,7 +14921,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>0</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-1</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14940,7 +14940,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+2)P</damage>
+	  <damage>({STR}+2)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14959,7 +14959,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>5</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+3)P</damage>
+	  <damage>({STR}+3)P</damage>
 	  <ap>-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
@@ -14978,7 +14978,7 @@
 	  <conceal>0</conceal>
 	  <accuracy>8</accuracy>
 	  <reach>1</reach>
-	  <damage>(STR+4)P</damage>
+	  <damage>({STR}+4)P</damage>
 	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
