@@ -286,15 +286,6 @@
 	  <name>Ammo: Krime Splash Self-Defense Ammunition</name>
 	  <hide />
 	</gear>
-	<gear>
-      <id>c18eed96-2697-4b95-9be7-be9313504a2f</id>
-      <name>Ammo: Krime Punisher Assault Cannon Rounds</name>
-      <weaponbonus>
-        <damage>3</damage>
-        <ap>-3</ap>
-      </weaponbonus>
-      <ammoforweapontype>cannon</ammoforweapontype>
-    </gear>
   </gears>
   <!-- End Region -->
 </chummer>
