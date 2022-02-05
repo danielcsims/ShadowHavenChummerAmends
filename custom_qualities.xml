@@ -1411,5 +1411,51 @@
 			<source>SR5</source>
 		 <page>11</page>
 		</quality>
+		<quality>
+			<id>fb61b2c4-e623-4ba5-a9a4-6819155c3a32</id>
+			<name>Secondary Special Modifications</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<limit>2</limit>
+			<bonus>
+				<specialmodificationlimit>2</specialmodificationlimit>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<quality>Special Modifications</quality>
+				</oneof>
+			</required>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>ad3d28ad-75f5-456a-9473-14478a97c7f0</id>
+			<name>Additional Prototype Materials</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<bonus>
+				<specialmodificationlimit>2</specialmodificationlimit>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<allof>
+					<quality>Secondary Special Modifications</quality>
+					<quality>Prototype Materials</quality>
+				</allof>
+			</required>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
 	</qualities>
 </chummer>
