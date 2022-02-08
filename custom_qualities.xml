@@ -90,7 +90,7 @@
 						<val>3</val>
 					</skill>
 					<attributetotal>
-						<attributes>CHA+INT</attributes>
+						<attributes>{CHA}+{INT}</attributes>
 						<val>7</val>
 					</attributetotal>
 					<ess>-3.0</ess>
@@ -112,24 +112,19 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<required>
-				<oneof>
-					<group>
+				<allof>
+					<oneof>
 						<skillgrouptotal>
-							<skillgroups>Athletics,Close Combat,Firearms,Outdoors</skillgroups>
+							<skillgroups>Athletics+Close Combat+Firearms+Outdoors</skillgroups>
 							<val>4</val>
 						</skillgrouptotal>
-						<ess>-3.0</ess>
-					</group>
-					<group>
 						<skilltotal>
-							<skills>Flight,Gymnastics,Running,Swimming,Blades,Clubs,Unarmed,Automatics,Longarms,Pistols,
-									Navigation,Survival,Tracking,Pilot Aerospace,Pilot Aircraft,Pilot Groundcraft,
-									Pilot Walker,Pilot Watercraft</skills>
+							<skills>{Flight}+{Gymnastics}+{Running}+{Swimming}+{Blades}+{Clubs}+{Unarmed}+{Automatics}+{Longarms}+{Pistols}+{Navigation}+{Survival}+{Tracking}+{Pilot Aerospace}+{Pilot Aircraft}+{Pilot Groundcraft}+{Pilot Walker}+{Pilot Watercraft}</skills>
 							<val>14</val>
 						</skilltotal>
-						<ess>-3.0</ess>
-					</group>
-				</oneof>
+					</oneof>
+					<ess>-3.0</ess>
+				</allof>
 			</required>
 			<source>SR5</source>
 			<page>10</page>
@@ -774,14 +769,14 @@
 			<required>
 				<allof>
 					<attributetotal>
-						<attributes>WIL+INT</attributes>
+						<attributes>{WIL}+{INT}</attributes>
 						<val>7</val>
 					</attributetotal>
 					<ess>-3.0</ess>
 				</allof>
 			</required>
 			<bonus>
-				<basicbiowarewareessmultiplier>90</basicbiowarewareessmultiplier>
+				<cyberwareessmultiplier>90</cyberwareessmultiplier>
 				<weaponcategorydv>
 					<name>Clubs</name>
 					<bonus>1</bonus>
@@ -819,7 +814,7 @@
 			<required>
 				<allof>
 					<attributetotal>
-						<attributes>WIL+INT</attributes>
+						<attributes>{WIL}+{INT}</attributes>
 						<val>7</val>
 					</attributetotal>
 					<ess>-3.0</ess>
@@ -864,7 +859,7 @@
 			<required>
 				<allof>
 					<attributetotal>
-						<attributes>WIL+INT</attributes>
+						<attributes>{WIL}+{INT}</attributes>
 						<val>7</val>
 					</attributetotal>
 					<ess>-3.0</ess>
@@ -894,7 +889,7 @@
 			<required>
 				<allof>
 					<attributetotal>
-						<attributes>WIL+INT</attributes>
+						<attributes>{WIL}+{INT}</attributes>
 						<val>7</val>
 					</attributetotal>
 					<ess>-3.0</ess>
@@ -914,6 +909,27 @@
 			</forbidden>
 			<source>SR5</source>
 			<page>11</page>
+		</quality>
+		<quality>
+			<id>4c910c7a-7fa2-4f3e-b3ee-b21ea03b2368</id>
+			<name>Ronin Exotic DV</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<quality>Ronin (DV/Bioware)</quality>
+					<quality>Ronin (DV/Cyberware)</quality>
+				</oneof>
+			</required>
+			<bonus>
+				<weaponcategorydv>
+					<selectskill limittoskill="Exotic Melee Weapon" />
+					<bonus>1</bonus>
+				</weaponcategorydv>
+			</bonus>
+			<source>SR5</source>
+			<page>0</page>
 		</quality>
 		<quality>
 			<id>83520956-ded2-4ca6-99ca-aed59f770db2</id>
