@@ -300,6 +300,26 @@
       <name>Revels in Murder</name>
       <hide />
     </quality>
+    <quality>
+      <name>Biocompatibility (Bioware)</name>
+      <forbidden amendoperation="replace">
+        <oneof>
+          <quality>Ronin (DV/Bioware)</quality>
+          <quality>Ronin (Dodge/Bioware)</quality>
+          <quality>Biocompatibility (Cyberware)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Biocompatibility (Cyberware)</name>
+      <forbidden amendoperation="replace">
+        <oneof>
+          <quality>Ronin (DV/Cyberware)</quality>
+          <quality>Ronin (Dodge/Cyberware)</quality>
+          <quality>Biocompatibility (Bioware)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
     <!-- End Region -->
     <!-- Region Chrome Flesh Negative Qualities -->
     <quality>

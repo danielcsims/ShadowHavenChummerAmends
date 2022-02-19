@@ -47,14 +47,6 @@
     </armor>
     <!-- End Region -->
     <!-- Region Kill Code -->
-    <armor>
-      <name>Pantheon Industries Hard Case CCOB</name>
-      <hide />
-    </armor>
-    <armor>
-      <name>Generic CCOB</name>
-      <hide />
-    </armor>
     <!-- End Region -->
   </armors>
   <mods>
@@ -83,5 +75,18 @@
       </forbidden>
     </mod>
     <!-- End Region -->
+    <!-- Region Kill Code -->
+    <mod amendoperation="addnode">
+      <id>91978f8f-8d9c-488d-ad5e-7aaff936435f</id>
+      <name>Personal Drone Rack</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <avail>12R</avail>
+      <cost>500</cost>
+      <source>KC</source>
+      <page>73</page>
+    </mod>
   </mods>
 </chummer>

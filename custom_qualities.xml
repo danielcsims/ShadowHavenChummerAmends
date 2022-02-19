@@ -1,57 +1,1477 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--This file is part of Chummer5a.
 
-    Chummer5a is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
 
-    Chummer5a is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
 
-    You can obtain the full source code for Chummer5a at
-    https://github.com/chummer5a/chummer5a
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
 -->
-<chummer>
-  <!-- Region Defiance Manifest Positive Qualities-->
-  <qualities>
-  <quality>
-      <id>0a553fa5-e913-43a5-b235-0bfed057983d</id>
-      <name>History Is Less Certain Than We Are Taught</name>
-      <karma>0</karma>
-      <category>Positive</category>
-      <source>RF</source>
-      <page>5</page>
-    </quality>
-    <!-- End Region-->
-  <!-- Region Defiance Manifest Negetive Qualities-->
-  <quality>
-      <id>69530371-4a79-41a4-bb16-71167754389f</id>
-      <name>An Overwhelming Despair</name>
-      <karma>-15</karma>
-      <category>Negetive</category>
-      <required>
-        <oneof>
-            <quality>History Is Less Certain Than We Are Taught</quality>
-      </required>
-      <source>DM</source>
-      <page>0</page>
-    </quality>
-    <quality>
-      <id>20a288d8-8c8e-46f2-9e69-93d6c11f6a94</id>
-      <name>A Terrible Fascination</name>
-      <karma>-15</karma>
-      <category>Negetive</category>
-      <required>
-        <oneof>
-            <quality>History Is Less Certain Than We Are Taught</quality>
-      </required>
-      <source>DM</source>
-      <page>0</page>
-    </quality>
-    <!-- End Region -->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
+	<qualities>
+		<quality>
+			<id>b7f22362-abee-4276-9f8d-b786b3e6e39a</id>
+			<name>History Is Not As Certain As We Are Taught</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>55e62ea2-7207-47a8-8b06-31aeaa0d02d1</id>
+			<name>An Overwhelming Despair</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<required>
+				<allof>
+					<quality>History Is Not As Certain As We Are Taught</quality>
+				</allof>
+			</required>
+			<bonus>
+				<specificskill>
+					<name>Intimidation</name>
+					<bonus>-2</bonus>
+				</specificskill>
+				<specificskill>
+					<name>Instruction</name>
+					<bonus>-2</bonus>
+				</specificskill>
+				<skillgroup>
+					<name>Acting</name>
+					<bonus>-2</bonus>
+				</skillgroup>
+				<skillgroup>
+					<name>Influence</name>
+					<bonus>-2</bonus>
+				</skillgroup>
+			</bonus>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>ad8791a1-7f65-4b03-b9f9-0b9e5bf93528</id>
+			<name>A Terrible Fascination</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<required>
+				<allof>
+					<quality>History Is Not As Certain As We Are Taught</quality>
+				</allof>
+			</required>
+			<source>DM</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>43772e65-1f3f-4c4b-8ed0-e75dc64fa534</id>
+			<name>Bodyguard</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<allof>
+					<skill>
+						<name>Pistols</name>
+						<val>3</val>
+					</skill>
+					<skill>
+						<name>Perception</name>
+						<val>3</val>
+					</skill>
+					<attributetotal>
+						<attributes>{CHA}+{INT}</attributes>
+						<val>7</val>
+					</attributetotal>
+					<ess>-3.0</ess>
+				</allof>
+			</required>
+			<bonus>
+				<specificskill>
+					<name>Perception</name>
+					<bonus>2</bonus>
+				</specificskill>
+			</bonus>
+			<source>SR5</source>
+			<page>10</page>
+		</quality>
+		<quality>
+			<id>5a81e308-06bf-41b6-bb42-1176419d454c</id>
+			<name>Merc</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<allof>
+					<oneof>
+						<skillgrouptotal>
+							<skillgroups>Athletics+Close Combat+Firearms+Outdoors</skillgroups>
+							<val>4</val>
+						</skillgrouptotal>
+						<skilltotal>
+							<skills>{Flight}+{Gymnastics}+{Running}+{Swimming}+{Blades}+{Clubs}+{Unarmed}+{Automatics}+{Longarms}+{Pistols}+{Navigation}+{Survival}+{Tracking}+{Pilot Aerospace}+{Pilot Aircraft}+{Pilot Groundcraft}+{Pilot Walker}+{Pilot Watercraft}</skills>
+							<val>14</val>
+						</skilltotal>
+					</oneof>
+					<ess>-3.0</ess>
+				</allof>
+			</required>
+			<source>SR5</source>
+			<page>10</page>
+			<notes>Remember to discount one of [Armor, Vehicles, Weapons] manually.</notes>
+		</quality>
+		<quality>
+			<id>34b45573-d7e7-4a20-974e-ba90a6ad52ac</id>
+			<name>Panzer (BOD Intim/Pain Resistance)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<swapskillattribute>
+					<attribute>BOD</attribute>
+					<limittoskill>Intimidation</limittoskill>
+				</swapskillattribute>
+				<conditionmonitor>
+					<threshold>2</threshold>
+				</conditionmonitor>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Panzer (BOD Intim/Soak)</quality>
+					<quality>Panzer (Fear/Soak)</quality>
+					<quality>Panzer (Fear/Pain Resistance)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>566b54c9-ca4b-4349-a40c-865fd4296898</id>
+			<name>Panzer (BOD Intim/Soak)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<swapskillattribute>
+					<attribute>BOD</attribute>
+					<limittoskill>Intimidation</limittoskill>
+				</swapskillattribute>
+				<damageresistance>1</damageresistance>
+			</bonus>
+			<forbidden>
+				<quality>Panzer (BOD Intim/Pain Resistance)</quality>
+				<quality>Panzer (Fear/Soak)</quality>
+				<quality>Panzer (Fear/Pain Resistance)</quality>
+			</forbidden>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>80d57497-0094-42be-95a5-a3ba94a694fa</id>
+			<name>Panzer (Fear/Pain Resistance)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<conditionmonitor>
+					<threshold>2</threshold>
+				</conditionmonitor>
+			</bonus>
+			<forbidden>
+				<one>
+					<quality>Panzer (BOD Intim/Pain Resistance)</quality>
+					<quality>Panzer (Fear/Soak)</quality>
+					<quality>Panzer (BOD Intim/Soak)</quality>
+				</one>
+			</forbidden>
+			<source>SR5</source>
+			<page>10</page>
+		</quality>
+		<quality>
+			<id>8f5a297f-d59e-4dc6-bff9-402a25299c65</id>
+			<name>Panzer (Fear/Soak)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<cyberware>Dermal Plating</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Bone Lacing (Titanium)</cyberware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+						<cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<damageresistance>1</damageresistance>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Panzer (BOD Intim/Pain Resistance)</quality>
+					<quality>Panzer (Fear/Soak)</quality>
+					<quality>Panzer (Fear/Pain Resistance)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>10</page>
+		</quality>
+		<quality>
+			<id>778550a1-4597-4cf7-97b5-acfdd2d88635</id>
+			<name>Razorboy (Cyberweapon DV)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Infrasonic Generator</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Full Arm</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Full Leg</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Torso</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Skull</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Full Arm</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Full Leg</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Torso</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Skull</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Arm</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Leg</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Arm</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Leg</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Torso</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Skull</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<skillcategory>
+					<name>Street</name>
+					<bonus>1</bonus>
+				</skillcategory>
+				<weaponcategorydv>
+					<name>Cyberweapon</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+				<weaponcategorydv>
+					<name>Bio-weapon</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+			</bonus>
+			<forbidden>
+				<quality>Razorboy (Intimidation)</quality>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>83cef3f5-f143-418f-80ba-a4a2feeef075</id>
+			<name>Razorboy (Intimidation)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Infrasonic Generator</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Full Arm</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Full Leg</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Torso</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Obvious Skull</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Full Arm</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Full Leg</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Torso</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<cyberware>Obvious Skull</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Infrasonic Generator</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Arm</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Leg</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Arm</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Full Leg</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Torso</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Obvious Skull</cyberware>
+						<category>Bio-Weapons</category>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<skillcategory>
+					<name>Street</name>
+					<bonus>1</bonus>
+				</skillcategory>
+				<specificskill>
+					<name>Intimidation</name>
+					<bonus>2</bonus>
+				</specificskill>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Razorboy (Cyberweapon DV)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>c0f60b15-5ab0-4959-a928-64540f4f655c</id>
+			<name>Ronin (DV/Bioware)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<allof>
+					<attributetotal>
+						<attributes>{WIL}+{INT}</attributes>
+						<val>7</val>
+					</attributetotal>
+					<ess>-3.0</ess>
+				</allof>
+			</required>
+			<bonus>
+				<cyberwareessmultiplier>90</cyberwareessmultiplier>
+				<weaponcategorydv>
+					<name>Clubs</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+				<weaponcategorydv>
+					<name>Blades</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+				<weaponcategorydv>
+					<name>Exotic Melee Weapons</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+				<weaponcategorydv>
+					<name>Unarmed</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Ronin (DV/Cyberware)</quality>
+					<quality>Ronin (Dodge/Cyberware)</quality>
+					<quality>Ronin (Dodge/Bioware)</quality>
+					<quality>Biocompatibility (Bioware)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>95740ea6-2578-4866-a6c9-d51ab6573fe6</id>
+			<name>Ronin (DV/Cyberware)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<allof>
+					<attributetotal>
+						<attributes>{WIL}+{INT}</attributes>
+						<val>7</val>
+					</attributetotal>
+					<ess>-3.0</ess>
+				</allof>
+			</required>
+			<bonus>
+				<cyberwareessmultiplier>90</cyberwareessmultiplier>
+				<weaponcategorydv>
+					<name>Clubs</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+				<weaponcategorydv>
+					<name>Blades</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+				<weaponcategorydv>
+					<name>Exotic Melee Weapons</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+				<weaponcategorydv>
+					<name>Unarmed</name>
+					<bonus>1</bonus>
+				</weaponcategorydv>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Ronin (DV/Bioware)</quality>
+					<quality>Ronin (Dodge/Cyberware)</quality>
+					<quality>Ronin (Dodge/Bioware)</quality>
+					<quality>Biocompatibility (Cyberware)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>b0ee60ec-d662-40de-b002-37649fccc1ab</id>
+			<name>Ronin (Dodge/Cyberware)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<allof>
+					<attributetotal>
+						<attributes>{WIL}+{INT}</attributes>
+						<val>7</val>
+					</attributetotal>
+					<ess>-3.0</ess>
+				</allof>
+			</required>
+			<bonus>
+				<cyberwareessmultiplier>90</cyberwareessmultiplier>
+				<dodge>2</dodge>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Ronin (DV/Bioware)</quality>
+					<quality>Ronin (DV/Cyberware)</quality>
+					<quality>Ronin (Dodge/Bioware)</quality>
+					<quality>Biocompatibility (Cyberware)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>4ef004e8-278a-4371-8925-648c02420a2e</id>
+			<name>Ronin (Dodge/Bioware)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<allof>
+					<attributetotal>
+						<attributes>{WIL}+{INT}</attributes>
+						<val>7</val>
+					</attributetotal>
+					<ess>-3.0</ess>
+				</allof>
+			</required>
+			<bonus>
+				<basicbiowareessmultiplier>90</basicbiowareessmultiplier>
+				<dodge>2</dodge>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Ronin (DV/Bioware)</quality>
+					<quality>Ronin (DV/Cyberware)</quality>
+					<quality>Ronin (Dodge/Cyberware)</quality>
+					<quality>Biocompatibility (Bioware)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>4c910c7a-7fa2-4f3e-b3ee-b21ea03b2368</id>
+			<name>Ronin Exotic DV</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<quality>Ronin (DV/Bioware)</quality>
+					<quality>Ronin (DV/Cyberware)</quality>
+				</oneof>
+			</required>
+			<bonus>
+				<weaponcategorydv>
+					<selectskill limittoskill="Exotic Melee Weapon" />
+					<bonus>1</bonus>
+				</weaponcategorydv>
+			</bonus>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>83520956-ded2-4ca6-99ca-aed59f770db2</id>
+			<name>Sharpshooter (WotS) (TA)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<cyberware>Vision Magnification</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<bioware>Tremor Reducers</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<cyberware>Attention Coprocessor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<cyberware>Laser Rangefinder</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<bioware>Tremor Reducer</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<cyberware>Attention Coprocessor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<cyberware>Laser Rangefinder</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Tremor Reducer</bioware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Tremor Reducer</bioware>
+						<cyberware>Attention Coprocessor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Tremor Reducer</bioware>
+						<cyberware>Laser Rangefinder</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Laser Rangefinder</cyberware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<selectskill limittoskill="Sneaking,Longarms,Automatics,Pistols,Heavy Weapons,Exotic Ranged Weapon">
+					<val>1</val>
+				</selectskill>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Sharpshooter (WotS) (RCP)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>5fab34eb-8936-4d0a-823c-9f0739f36567</id>
+			<name>Sharpshooter (WotS) (RCP)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<cyberware>Vision Magnification</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<bioware>Tremor Reducers</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<cyberware>Attention Coprocessor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Smartlink</cyberware>
+						<cyberware>Laser Rangefinder</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<bioware>Tremor Reducer</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<cyberware>Attention Coprocessor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Vision Magnification</cyberware>
+						<cyberware>Laser Rangefinder</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Tremor Reducer</bioware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Tremor Reducer</bioware>
+						<cyberware>Attention Coprocessor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Tremor Reducer</bioware>
+						<cyberware>Laser Rangefinder</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberware>Laser Rangefinder</cyberware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<selectskill limittoskill="Sneaking,Longarms,Automatics,Pistols,Heavy Weapons,Exotic Ranged Weapon">
+					<val>1</val>
+				</selectskill>
+				<weaponrangemodifier>
+					<value>2</value>
+				</weaponrangemodifier>
+			</bonus>
+			<forbidden>
+				<one>
+					<quality>Sharpshooter (WotS) (TA)</quality>
+				</one>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>7f0ec452-e6cb-4743-bd3c-1192e67bc93a</id>
+			<name>Street Ninja (CS)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<bioware>Enhanced Articulation</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<bioware>Enhanced Articulation</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Enhanced Articulation</bioware>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Enhanced Articulation</bioware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Enhanced Articulation</bioware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Synthacardium</bioware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Synthacardium</bioware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Reflex Recorder</bioware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Exotic Melee Weapon,Unarmed">
+					<val>1</val>
+				</selectskill>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Street Ninja (Surprise)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>11</page>
+		</quality>
+		<quality>
+			<id>64e66553-b1b7-4c1b-8b6b-33794ba39e91</id>
+			<name>Street Ninja (Surprise)</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<category>Cyber Implant Weapon</category>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<bioware>Enhanced Articulation</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<cyberware>Cybereyes Basic System</cyberware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<bioware>Enhanced Articulation</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<category>Cyber Implant Weapon</category>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Enhanced Articulation</bioware>
+						<bioware>Synthacardium</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Enhanced Articulation</bioware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Enhanced Articulation</bioware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Synthacardium</bioware>
+						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Synthacardium</bioware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+					<group>
+						<bioware>Reflex Recorder</bioware>
+						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<specificskill>
+							<name>Sneaking</name>
+							<val>4</val>
+						</specificskill>
+					</group>
+				</oneof>
+			</required>
+			<bonus>
+				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Exotic Melee Weapon,Unarmed">
+					<val>1</val>
+				</selectskill>
+				<surprise>3</surprise>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Street Ninja (CS)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+		 <page>11</page>
+		</quality>
+		<quality>
+			<id>fb61b2c4-e623-4ba5-a9a4-6819155c3a32</id>
+			<name>Secondary Special Modifications</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<limit>2</limit>
+			<bonus>
+				<specialmodificationlimit>2</specialmodificationlimit>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<quality>Special Modifications</quality>
+				</oneof>
+			</required>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>ad3d28ad-75f5-456a-9473-14478a97c7f0</id>
+			<name>Additional Prototype Materials</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<bonus>
+				<specialmodificationlimit>2</specialmodificationlimit>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<allof>
+					<quality>Secondary Special Modifications</quality>
+					<quality>Prototype Materials</quality>
+				</allof>
+			</required>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+	</qualities>
+</chummer>
